@@ -10,3 +10,10 @@ Route::put('/chirps/{chirp}', [ChirpController::class, 'update']);
 Route::delete('/chirps/{chirp}', [ChirpController::class, 'destroy']);
 
 // identico ao de cima -> Route::resource('/chirps', ChirpController::class)->only(['index', 'store', 'edit', 'update', 'destroy']);
+
+// register routes
+Route::view('/register', 'auth.register')
+->middleware('guest')->name('register');
+
+Route::post('/register', Register::class)
+->middleware('guest');
