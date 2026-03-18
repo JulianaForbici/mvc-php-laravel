@@ -19,3 +19,5 @@ Praticar os fundamentos do Laravel e organizar o projeto em um padrão **MVC** (
 - PHP
 - Laravel
 - Composer
+
+<img width="1870" height="971" alt="Tela inicial do projeto Laravel Chirper" src="https://github.com/user-attachments/assets/70a6b1d3-bff8-4920-b9be-9a0e4b105bf9" />
